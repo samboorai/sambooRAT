@@ -1,0 +1,14 @@
+===============================+W3LC0M3 T0 S4M800R4T+==================================
+
+  _________   _____    _____     ______ _______  _______ __________    ________________
+ /   _____/  /  |  |  /     \   /  __  \\   _  \ \   _  \\______   \  /  |  \__    ___/
+ \_____  \  /   |  |_/  \ /  \  >      </  /_\  \/  /_\  \|       _/ /   |  |_|    |   
+ /        \/    ^   /    Y    \/   --   \  \_/   \  \_/   \    |   \/    ^   /|    |   
+/_______  /\____   |\____|__  /\______  /\_____  /\_____  /____|_  /\____   | |____|   
+        \/      |__|        \/        \/       \/       \/       \/      |__|         
+
+S4M800R4T is a software used for getting some info on someone's computer. S4M800R4T uses
+some simple commands like:
+
+whereami - Shows Current Working Directory, aka. where are the python files.
+custom_dir - What is in the directory that you put in the text box
